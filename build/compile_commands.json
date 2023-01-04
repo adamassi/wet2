@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/adamassi/wet224.12/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o CMakeFiles/wet2_DS_winter.dir/main23a2.cpp.o -c /home/adamassi/wet224.12/main23a2.cpp",
+  "file": "/home/adamassi/wet224.12/main23a2.cpp"
+},
+{
+  "directory": "/home/adamassi/wet224.12/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o CMakeFiles/wet2_DS_winter.dir/UnionFind.cpp.o -c /home/adamassi/wet224.12/UnionFind.cpp",
+  "file": "/home/adamassi/wet224.12/UnionFind.cpp"
+},
+{
+  "directory": "/home/adamassi/wet224.12/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o CMakeFiles/wet2_DS_winter.dir/Player.cpp.o -c /home/adamassi/wet224.12/Player.cpp",
+  "file": "/home/adamassi/wet224.12/Player.cpp"
+},
+{
+  "directory": "/home/adamassi/wet224.12/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o CMakeFiles/wet2_DS_winter.dir/Team.cpp.o -c /home/adamassi/wet224.12/Team.cpp",
+  "file": "/home/adamassi/wet224.12/Team.cpp"
+},
+{
+  "directory": "/home/adamassi/wet224.12/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o CMakeFiles/wet2_DS_winter.dir/worldcup23a2.cpp.o -c /home/adamassi/wet224.12/worldcup23a2.cpp",
+  "file": "/home/adamassi/wet224.12/worldcup23a2.cpp"
+}
+]

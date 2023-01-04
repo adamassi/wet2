@@ -1,0 +1,28 @@
+g++ -std=c++11 -DNDEBUG -Wall -g   *.cpp -o myprog
+./myprog< my_test.txt > tmp
+diff tmp out.txt
+
+
+
+
+./myprog< test.in > tmpout
+
+
+
+./myprog< t.in > tmpout
+
+
+
+
+for i in {0..29}; do diff "tests1/myout$i.out" "tests1/randtest$i.out"; done
+
+
+for i  in {0..29}; do valgrind --leak-check=full --track-origins=yes  ./myprog < randtest$i.in > my_output_$i.txt ; done
+ valgrind --leak-check=full --track-origins=yes  ./myprog < test.in > tmpout
+for i  in {1..3}; do valgrind --leak-check=full  ./myprog < "wacky/in/input$i.in" > "wacky/my_out/output$i.out"; done
+
+
+for i  in {1..3};do ./myprog < "wacky/in/input$i.in" > "wacky/my_out/output$i.out"; done
+
+
+for i  in {1..3};do diff  "wacky/out/output$i.out"  "wacky/my_out/output$i.out"; done
