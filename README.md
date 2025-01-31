@@ -70,19 +70,7 @@ The implementation was tested using sample input files provided with the assignm
 
 Custom test cases were created to check edge cases, memory allocation, and algorithm efficiency.
 
-Project Structure
 
-│── src/
-│   ├── world_cup_t.cpp      # Implementation of main class
-│   ├── world_cup_t.h        # Header file
-│   ├── player.cpp           # Player class implementation
-│   ├── player.h             # Player class header
-│   ├── team.cpp             # Team class implementation
-│   ├── team.h               # Team class header
-│── main23a1.cpp             # Provided main file (unchanged)
-│── wet1util.h               # Utility functions (unchanged)
-│── Makefile                 # Compilation script
-│── README.md                # This documentation
 
 Notes & Challenges
 
